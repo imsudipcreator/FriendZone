@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+.main{
+  flex:100% ;
+  background-color: aliceblue;
+
+}
+
+header {
+  background-color: black;
+  text-align: center;
+}
+.banner {
+  background-image: url(./logos/Logogifwhite-ezgif.com-video-to-gif-converter.gif);
+  background-position: top center;
+  height: 30vw;
+  min-height: 100px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 50%;
+}
+footer ,nav {
+  display: flex;
+  align-items: center;
+  background-color: rgb(29, 28, 28);
+}
+footer a,nav a {
+  text-decoration: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+}
+footer a:hover,nav a:hover {
+  background-color: white;
+  color: black;
+}
+.item-left {
+  margin-left: auto;
+}
+@media screen and (max-width: 600px) {
+  footer ,nav {
+    flex-direction: column;
+    padding: 10px 0px;
+  }
+  .item-left {
+    margin-left: 0;
+  }
+}
+
+h2 {
+  height: 7vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+}
+h2 span {
+  color: white;
+  background-color: rgb(29, 28, 28);
+  padding: 10px 40px;
+  border-radius: 10px;
+}
+ @media screen and (max-width: 600px) {
+  h2 {
+    height: 20vw;
+  }
+} 
+.imgs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+
+
+
+
+
+.carousel-cell {
+  width: 66%;
+  height: 500px;
+  margin-right: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.ourfounder{
+  background-color: rgb(189, 192, 194);
+}
+
+
+.imgfounder{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vw;
+  width:100%;
+}
+.founderpic{
+  height: 100%;
+  width: auto;
+  border-radius: 3%;
+}
+h3{
+  text-align: center;
+  margin: 15px auto;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.linkhandle{
+  display: flex;
+  justify-content: center;
+}
+.linkhandle a {
+  text-decoration: none;
+  margin: 10px 20px;
+  background-color: rgba(128, 128, 128, 0.541);
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-size: 1.25em;
+}
+
+.linkhandle a i {
+  margin: auto 7px auto 4px;
+}
+
+
+.yt_handle{
+  color: #FF0000;
+}
+.yt_handle:hover{
+  color: white;
+  background-color: #FF0000
+}
+.ld_handle{
+color: #0072b1;
+}
+.ld_handle:hover{
+  background-color: #0072b1;
+  color: white;
+  }
+.insta_handle{
+color: #E1306C;
+}
+.insta_handle:hover{
+background-color: #E1306C;
+color: white;
+}
+@media screen and (max-width:622px){
+  .linkhandle a {
+    text-decoration: none;
+    margin: 5px 10px;
+    background-color: rgba(128, 128, 128, 0.541);
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 1em;
+    
+  }
+  .linkhandle a i {
+    margin: auto 4px auto 1px;
+  }
+}
+
+h5{
+  text-align: center;
+  padding: 10px 40px;
+}
+
+
+
